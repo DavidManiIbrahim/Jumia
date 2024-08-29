@@ -396,6 +396,8 @@ ul li {
     margin-top: 2%;
     /* margin-bottom: 15%; */
     /* border: 1px solid; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     position: relative;
     background-color: #fff;
     top: 65%;
