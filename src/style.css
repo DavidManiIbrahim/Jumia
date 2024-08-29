@@ -70,6 +70,10 @@ body {
   position: relative;
 }
 
+.container1{
+  border: 1px solid;
+}
+
 .jumia-pay-container {
   /* border: 1px solid; */
   width: 50%;
@@ -380,13 +384,34 @@ ul li {
 
   .container-six {
     margin-top: 2%;
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
     /* border: 1px solid; */
     position: relative;
     background-color: #fff;
     top: 65%;
     height: 85vh;
   }
+
+  .container-seven {
+    margin-top: 2%;
+    /* margin-bottom: 15%; */
+    /* border: 1px solid; */
+    position: relative;
+    background-color: #fff;
+    top: 65%;
+    /* height: 85vh; */
+  }
+
+  .container-eight {
+    margin-top: 2%;
+    /* margin-bottom: 15%; */
+    /* border: 1px solid; */
+    position: relative;
+    background-color: #fff;
+    top: 65%;
+    /* height: 85vh; */
+  }
+
 
 .flash-sale {
   /*border: 1px solid;*/
@@ -464,6 +489,26 @@ ul li {
   /* height: 1vh; */
 }
 
+.official-phone-txt{
+  position: relative;
+  left: 42%;
+  color: #fff;
+  padding: 10px 5px;
+  font-weight: bolder;
+  font-size: larger;
+  /* height: 1vh; */
+}
+
+.official-phone-txt-left{
+  position: relative;
+  left: 5%;
+  color: #fff;
+  padding: 10px 5px;
+  font-weight: bolder;
+  font-size: larger;
+  /* height: 1vh; */
+}
+
 .txt-right {
   position: relative;
   /* border: 1px solid; */
@@ -496,6 +541,59 @@ ul li {
   height: 1vh;
 }
 
+.top-selling-see-all-txt{
+  position: relative;
+  /* border: 1px solid; */
+  left: 73%;
+  top: 30%;
+  width: 10%;
+  color: #333;
+  /* padding: 10px 5px; */
+  font-weight: bold;
+  font-size: smaller;
+  height: 1vh;
+}
+
+.fashion-see-all-txt{
+  position: relative;
+  /* border: 1px solid; */
+  left: 60%;
+  top: 30%;
+  width: 10%;
+  color: #333;
+  /* padding: 10px 5px; */
+  font-weight: bold;
+  font-size: smaller;
+  height: 1vh;
+}
+
+#official-see-all-txt{
+  position: relative;
+  /* border: 1px solid; */
+  left: 76%;
+  top: 30%;
+  width: 10%;
+  color: #333;
+  /* padding: 10px 5px; */
+  font-weight: bold;
+  font-size: smaller;
+  height: 1vh;
+}
+
+#top-selling-see-all-txt {
+  position: relative;
+  /* border: 1px solid; */
+  left: 65%;
+  top: 30%;
+  width: 10%;
+  color: #333;
+  /* padding: 10px 5px; */
+  font-weight: bold;
+  font-size: smaller;
+  height: 1vh;
+}
+
+
 .timer{
   position: relative;
   left: 30%;
@@ -512,8 +610,57 @@ ul li {
     border-top-left-radius: 5px;
     display: flex;
     background-color: skyblue;
+  }
+
+  .limited-offer p{
+    text-align: center;
+  }
+
+  .fitness {
+    /*border: 1px solid;*/
+    height: 6vh;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    background-color: #C3DEF0;
+  }
+
+  .official-store {
+    /*border: 1px solid;*/
+    height: 6vh;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    background-color: #276076;
+  }
+
+  .fashion {
+    /*border: 1px solid;*/
+    height: 6vh;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    background-color: #AADEF1;
+  }
+
+  .discount{
+    font-weight: normal;
+  }
+
+  .top-selling {
+    /*border: 1px solid;*/
+    height: 6vh;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    /* background-color: skyblue; */
 
   }
+
 
 .flash-sale p{
     font-size: 1rem;
@@ -538,12 +685,12 @@ ul li {
   margin-left: 20px;
   margin-top: 10px;
   border-radius: 5px;
-  /*border: 1px solid;
-  */-webkit-border-radius: ;
+  /*border: 1px solid;*/
+   /*-webkit-border-radius: ;
   -moz-border-radius:;
   -ms-border-radius:;
   -o-border-radius:;
-  -webkit-border-radius:;
+  -webkit-border-radius:; */
 }
 
 .img-container{
@@ -601,6 +748,21 @@ ul li {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+.store-img-container img {
+  width: 15%;
+  height: 25vh;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  gap: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 
 .back-to-school-img-container img {
   width: 32%;
