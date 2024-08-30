@@ -278,7 +278,7 @@ aside {
   background-color: #fff;
 }
 
-ul li {
+aside ul li {
   padding: 8px;
   list-style-type: none;
 }
@@ -423,10 +423,10 @@ ul li {
   border-top-left-radius: 5px;
   display: flex;
   background-color: red;
-  -webkit-border-radius:;
+  /* -webkit-border-radius:;
   -moz-border-radius:;
   -ms-border-radius:;
-  -o-border-radius:;
+  -o-border-radius:; */
 }
 
 .phone-txt-left{
@@ -851,19 +851,6 @@ ul li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-two img {
   height: 50%;
 }
@@ -893,4 +880,180 @@ ul li {
   position: relative;
   left: 90px;
   top: 10px;
+}
+
+/* more info */
+
+.more-info{
+  /*border: 1px solid;*/
+  height: 305vh;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: #fff;
+  margin-top: 40%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.more-info-header{
+  color: #333;
+}
+
+
+
+/* footer */
+
+footer{
+  border: 1px solid;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #fff; */
+  position: relative;
+  margin-top: 740%;
+}
+
+.newsletter{
+  display: flex;
+  color: #fff;
+  background-color: #313133;
+  height: 35vh;
+  /* border: 1px solid; */
+}
+
+.jumia-newsletter{
+  /* border: 1px solid #fff; */
+  width: 70%;
+  position: relative;
+  padding-left: 25%;
+  padding-top: 2%;
+  /* text-align: right; */
+}
+
+.jumia-newsletter input{
+  padding: 10px;
+}
+
+.jumia-newsletter .email{
+  height: 7vh;
+  width: 40%;
+  border: none;
+  /*outline: 1px solid orange;
+  */border-radius: 3px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+.jumia-newsletter .email:focus{
+  outline: 1px solid orange;
+}
+
+.email::placeholder{
+  text-align: center;
+}
+
+.check{
+  margin-right: 2%;
+  /* width: 5%; */
+}
+
+
+.accept{
+  color: orange;
+  position: absolute;
+  margin-top: 2%;
+}
+
+.gender-btn{
+  width: 12%;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid#fff;
+  height: 7vh;
+  border-radius: 3px;
+  padding: 40px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+ .jumia-newsletter h4{
+  padding-bottom: 1%;
+} 
+
+.jumia-newsletter p{
+  font-size: small;
+  /* padding-top: 1%; */
+}
+
+.terms-and-condition{
+display: flex;
+position: relative;
+/*  border: 1px solid; */
+margin-top: 2%;
+right: 5%;
+width: 80%;
+padding: 2%;
+
+}
+
+.jumia-download{
+  padding: 2%;
+  font-size: smaller;
+}
+
+.jumia-download p{
+  padding-top: 3%;
+  font-size: small;
+}
+
+.jumia-info{
+  height: 80vh;
+  color: #fff;
+  background-color: #535357;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+li{
+  padding-bottom: 2%;
+}
+
+.content-container{
+  display: flex;
+  gap: 2%;
+  margin-left: 3%;
+  font-size: small;
+}
+
+.content-container ul{
+  list-style-type: none;
+  padding: 3%;
+}
+
+
+.international-container{
+ 
+  display: flex;
+}
+
+.two{
+  margin-left: 8%;
+}
+
+hr{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: gray;
+  opacity: 20%;
+  position: relative;
+  top: 10%;
 }
